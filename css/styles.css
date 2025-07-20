@@ -56,7 +56,7 @@
     .card-description p {
         font-size: 0.875rem;
         color: #6b6b6b;
-        line-height: 1.3rem;
+        line-height: 150%;
     }
     .card-title h1{
         font-size: 1.25rem;
@@ -122,9 +122,19 @@
         width: 43.75vw;
         height: 36px;
     }
+    .card-title h1{
+        font-size: 1.5rem;
+    }
+    .card-publish-date p, .card-category p{
+        font-size: 0.85rem;
+    }
     .card-description{
         width: 43.75vw;
         height: 72px;
+    }
+    .card-description p{
+        line-height: 150%;
+        font-size: 1.021rem;
     }
     .card-author{
         width: 16.797vw;
@@ -137,6 +147,48 @@
     .card-user-pic span{
         width: 11.068vw;
         height: 21px;
+        font-size: 0.85rem;
+    }
+}
+
+@media (min-width: 1200px){
+    .card{
+        width: 32vw;
+        height: auto;
+    }
+    .card-image{
+        width: 28vw;
+        height: 200px;
+    }
+    .card-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card-content{
+        width: 28vw;
+        height: 194px;
+    }
+    .card-category{
+        width: 6.833vw;
+    }
+    .card-description{
+        width: 28vw;
+        height: 72px;
+    }
+    .card-author{
+        width: 12vw;
+        height: 45px;
+    }
+    .card-user-pic img{
+        width: 4vw;
+    }
+    .card-title h1{
+        font-size: 1.65rem;
+    }
+    .card-description p{
+        font-size: 1.063rem;
+        line-height: 150%;
     }
 }
 /*DESKTOP*/
@@ -202,4 +254,6 @@
         height: 2.222vw;
     }
 }
+
+
 
