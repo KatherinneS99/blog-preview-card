@@ -1,7 +1,5 @@
-/*MEDIA QUERIES*/
-
-/*MOBILE*/
-@media (min-width: 375px){
+    /*MOBILE*/
+    
     *{
         box-sizing: border-box;
         margin: 0;
@@ -89,5 +87,59 @@
         font-size: 0.75rem;
         font-weight: 900;
         margin-left: 12px;
+    }
+
+    /*HOVERS*/
+    .card-title h1:hover{
+        color: #F4D04E;
+        cursor: pointer;
+    }
+
+
+@media (min-width: 1440px){
+    .card{
+        width: 26.667vw;
+        height: auto;
+    }
+    .card-image{
+        width: 23.333vw;
+        height: 200px;
+    }
+    .card-image img{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    .card-content{
+        width: 23.333vw;
+        height: 194px;
+    }
+    .card-description{
+        width: 23.333vw;
+        height: 72px;
+    }
+    .card-category{
+        width: 5.694vw;
+        height: 29px;
+    }
+    .card-publish-date{
+        width: 9.931vw;
+        height: 21px;
+    }
+    .card-title{
+        width: 23.333vw;
+        height: 36px;
+    }
+    .card-description{
+        width: 23.333vw;
+        height: 72px;
+    }
+    .card-author{
+        width: 8.958vw;
+        height: 32px;
+    }
+    .card-author img{
+        width: 2.222vw;
+        height: 2.222vw;
     }
 }
