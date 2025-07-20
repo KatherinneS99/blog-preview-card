@@ -95,7 +95,51 @@
         cursor: pointer;
     }
 
+/*MEDIA QUERIES*/
 
+@media (min-width: 768px){
+    .card{
+        width: 50vw;
+        height: auto;
+    }
+    .card-image{
+        width: 43.75vw;
+        height: 200px;
+    }
+    .card-content{
+        width: 43.75vw;
+        height: 194px;
+    }
+    .card-category{
+        width: 10.677vw;
+        height: 29px;
+    }
+    .card-publish-date{
+        width: 18.62vw;
+        height: 21px;
+    }
+    .card-title{
+        width: 43.75vw;
+        height: 36px;
+    }
+    .card-description{
+        width: 43.75vw;
+        height: 72px;
+    }
+    .card-author{
+        width: 16.797vw;
+        height: auto;
+    }
+    .card-user-pic img{
+        width: 4.167vw;
+        height: 4.167vw;
+    }
+    .card-user-pic span{
+        width: 11.068vw;
+        height: 21px;
+    }
+}
+/*DESKTOP*/
 @media (min-width: 1440px){
     .card{
         width: 26.667vw;
@@ -118,9 +162,24 @@
         width: 23.333vw;
         height: 72px;
     }
+    .card-description p{
+        font-size: 1.1rem;
+    }
+    .card-title h1{
+        font-size: 1.6rem;
+    }
+    .card-publish-date p{
+        font-size: 0.8rem;
+    }
     .card-category{
         width: 5.694vw;
         height: 29px;
+    }
+    .card-category p{
+        font-size: 0.9rem;
+    }
+    .card-user-pic span{
+        font-size: 0.8rem;
     }
     .card-publish-date{
         width: 9.931vw;
@@ -143,3 +202,4 @@
         height: 2.222vw;
     }
 }
+
